@@ -1,27 +1,85 @@
 body {
-  background: #eee;
+  background: #eeeeee;
   font-family: sans-serif;
 }
 
+/* My solution */
+/* Although my solution is not that refined and efficient but it looks almost the same. Without the side-to-side comparison, no one can tell. */
 .card {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  padding-top: 8px;
+  padding-bottom: 1px;
 }
 
 .title {
   background: #e3f4ff;
+  font-size: 16px;
+  padding: 7px;
+  margin: 6px;
 }
 
 .content {
   background: #e3f4ff;
+  font-size: 16px;
+  margin: 6px;
+  padding: 5px;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
 .button-container {
   background: #e3f4ff;
+  margin: 6px;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 6px;
+  padding-right: 130px;
+  padding-left: 120px;
+  padding-top: 18px;
+  padding-bottom: 18px;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  text-align: center;
+}
+
+
+
+/* Solution according to the odin */
+.card2 {
+  width: 400px;
+  background: #fff;
+  margin: 16px auto;
+  padding: 8px;
+}
+
+.title2 {
+  background: #e3f4ff;
+  margin-bottom: 8px;
+  font-size: 16px;
+  padding: 8px;
+}
+
+.content2 {
+  background: #e3f4ff;
+  margin-bottom: 8px;
+  padding: 16px 8px;
+}
+
+.button-container2 {
+  background: #e3f4ff;
+  text-align: center;
+  padding: 8px;
+}
+
+.button2 {
+  background: white;
+  border: 1px solid #eee;
+  display: block;
+  margin: 0 auto;
+  padding: 8px 24px;
 }
